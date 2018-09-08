@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AF340921442BA000849801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF340821442BA000849801 /* AppDelegate.swift */; };
+		03AF340B21442BA000849801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF340A21442BA000849801 /* ViewController.swift */; };
+		03AF340E21442BA000849801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AF340C21442BA000849801 /* Main.storyboard */; };
+		03AF341121442BA000849801 /* SeekAndPlay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03AF340F21442BA000849801 /* SeekAndPlay.xcdatamodeld */; };
+		03AF341321442BA100849801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AF341221442BA100849801 /* Assets.xcassets */; };
+		03AF341621442BA100849801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AF341421442BA100849801 /* LaunchScreen.storyboard */; };
+		03AF342121442BA100849801 /* SeekAndPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF342021442BA100849801 /* SeekAndPlayTests.swift */; };
+		03AF342C21442BA100849801 /* SeekAndPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF342B21442BA100849801 /* SeekAndPlayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03AF341D21442BA100849801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AF33FD21442BA000849801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AF340421442BA000849801;
+			remoteInfo = SeekAndPlay;
+		};
+		03AF342821442BA100849801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03AF33FD21442BA000849801 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AF340421442BA000849801;
+			remoteInfo = SeekAndPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AF340521442BA000849801 /* SeekAndPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeekAndPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AF340821442BA000849801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03AF340A21442BA000849801 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03AF340D21442BA000849801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03AF341021442BA000849801 /* SeekAndPlay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeekAndPlay.xcdatamodel; sourceTree = "<group>"; };
+		03AF341221442BA100849801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03AF341521442BA100849801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03AF341721442BA100849801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AF341C21442BA100849801 /* SeekAndPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekAndPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AF342021442BA100849801 /* SeekAndPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekAndPlayTests.swift; sourceTree = "<group>"; };
+		03AF342221442BA100849801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AF342721442BA100849801 /* SeekAndPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekAndPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AF342B21442BA100849801 /* SeekAndPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekAndPlayUITests.swift; sourceTree = "<group>"; };
+		03AF342D21442BA100849801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AF340221442BA000849801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AF341921442BA100849801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AF342421442BA100849801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AF33FC21442BA000849801 = {
+			isa = PBXGroup;
+			children = (
+				03AF340721442BA000849801 /* SeekAndPlay */,
+				03AF341F21442BA100849801 /* SeekAndPlayTests */,
+				03AF342A21442BA100849801 /* SeekAndPlayUITests */,
+				03AF340621442BA000849801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03AF340621442BA000849801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AF340521442BA000849801 /* SeekAndPlay.app */,
+				03AF341C21442BA100849801 /* SeekAndPlayTests.xctest */,
+				03AF342721442BA100849801 /* SeekAndPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AF340721442BA000849801 /* SeekAndPlay */ = {
+			isa = PBXGroup;
+			children = (
+				03AF340821442BA000849801 /* AppDelegate.swift */,
+				03AF340A21442BA000849801 /* ViewController.swift */,
+				03AF340C21442BA000849801 /* Main.storyboard */,
+				03AF341221442BA100849801 /* Assets.xcassets */,
+				03AF341421442BA100849801 /* LaunchScreen.storyboard */,
+				03AF341721442BA100849801 /* Info.plist */,
+				03AF340F21442BA000849801 /* SeekAndPlay.xcdatamodeld */,
+			);
+			path = SeekAndPlay;
+			sourceTree = "<group>";
+		};
+		03AF341F21442BA100849801 /* SeekAndPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				03AF342021442BA100849801 /* SeekAndPlayTests.swift */,
+				03AF342221442BA100849801 /* Info.plist */,
+			);
+			path = SeekAndPlayTests;
+			sourceTree = "<group>";
+		};
+		03AF342A21442BA100849801 /* SeekAndPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03AF342B21442BA100849801 /* SeekAndPlayUITests.swift */,
+				03AF342D21442BA100849801 /* Info.plist */,
+			);
+			path = SeekAndPlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AF340421442BA000849801 /* SeekAndPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AF343021442BA100849801 /* Build configuration list for PBXNativeTarget "SeekAndPlay" */;
+			buildPhases = (
+				03AF340121442BA000849801 /* Sources */,
+				03AF340221442BA000849801 /* Frameworks */,
+				03AF340321442BA000849801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeekAndPlay;
+			productName = SeekAndPlay;
+			productReference = 03AF340521442BA000849801 /* SeekAndPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03AF341B21442BA100849801 /* SeekAndPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AF343321442BA100849801 /* Build configuration list for PBXNativeTarget "SeekAndPlayTests" */;
+			buildPhases = (
+				03AF341821442BA100849801 /* Sources */,
+				03AF341921442BA100849801 /* Frameworks */,
+				03AF341A21442BA100849801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AF341E21442BA100849801 /* PBXTargetDependency */,
+			);
+			name = SeekAndPlayTests;
+			productName = SeekAndPlayTests;
+			productReference = 03AF341C21442BA100849801 /* SeekAndPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03AF342621442BA100849801 /* SeekAndPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AF343621442BA100849801 /* Build configuration list for PBXNativeTarget "SeekAndPlayUITests" */;
+			buildPhases = (
+				03AF342321442BA100849801 /* Sources */,
+				03AF342421442BA100849801 /* Frameworks */,
+				03AF342521442BA100849801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03AF342921442BA100849801 /* PBXTargetDependency */,
+			);
+			name = SeekAndPlayUITests;
+			productName = SeekAndPlayUITests;
+			productReference = 03AF342721442BA100849801 /* SeekAndPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AF33FD21442BA000849801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Nicolás Fernández";
+				TargetAttributes = {
+					03AF340421442BA000849801 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					03AF341B21442BA100849801 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 03AF340421442BA000849801;
+					};
+					03AF342621442BA100849801 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 03AF340421442BA000849801;
+					};
+				};
+			};
+			buildConfigurationList = 03AF340021442BA000849801 /* Build configuration list for PBXProject "SeekAndPlay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03AF33FC21442BA000849801;
+			productRefGroup = 03AF340621442BA000849801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AF340421442BA000849801 /* SeekAndPlay */,
+				03AF341B21442BA100849801 /* SeekAndPlayTests */,
+				03AF342621442BA100849801 /* SeekAndPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AF340321442BA000849801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AF341621442BA100849801 /* LaunchScreen.storyboard in Resources */,
+				03AF341321442BA100849801 /* Assets.xcassets in Resources */,
+				03AF340E21442BA000849801 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AF341A21442BA100849801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AF342521442BA100849801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AF340121442BA000849801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AF341121442BA000849801 /* SeekAndPlay.xcdatamodeld in Sources */,
+				03AF340B21442BA000849801 /* ViewController.swift in Sources */,
+				03AF340921442BA000849801 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AF341821442BA100849801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AF342121442BA100849801 /* SeekAndPlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AF342321442BA100849801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AF342C21442BA100849801 /* SeekAndPlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03AF341E21442BA100849801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AF340421442BA000849801 /* SeekAndPlay */;
+			targetProxy = 03AF341D21442BA100849801 /* PBXContainerItemProxy */;
+		};
+		03AF342921442BA100849801 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AF340421442BA000849801 /* SeekAndPlay */;
+			targetProxy = 03AF342821442BA100849801 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03AF340C21442BA000849801 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AF340D21442BA000849801 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03AF341421442BA100849801 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AF341521442BA100849801 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AF342E21442BA100849801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03AF342F21442BA100849801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AF343121442BA100849801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T637C7N937;
+				INFOPLIST_FILE = SeekAndPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.nicolasFernandez.SeekAndPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03AF343221442BA100849801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T637C7N937;
+				INFOPLIST_FILE = SeekAndPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.nicolasFernandez.SeekAndPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03AF343421442BA100849801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T637C7N937;
+				INFOPLIST_FILE = SeekAndPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.nicolasFernandez.SeekAndPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeekAndPlay.app/SeekAndPlay";
+			};
+			name = Debug;
+		};
+		03AF343521442BA100849801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T637C7N937;
+				INFOPLIST_FILE = SeekAndPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.nicolasFernandez.SeekAndPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeekAndPlay.app/SeekAndPlay";
+			};
+			name = Release;
+		};
+		03AF343721442BA100849801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T637C7N937;
+				INFOPLIST_FILE = SeekAndPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.nicolasFernandez.SeekAndPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeekAndPlay;
+			};
+			name = Debug;
+		};
+		03AF343821442BA100849801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T637C7N937;
+				INFOPLIST_FILE = SeekAndPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.nicolasFernandez.SeekAndPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeekAndPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AF340021442BA000849801 /* Build configuration list for PBXProject "SeekAndPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AF342E21442BA100849801 /* Debug */,
+				03AF342F21442BA100849801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AF343021442BA100849801 /* Build configuration list for PBXNativeTarget "SeekAndPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AF343121442BA100849801 /* Debug */,
+				03AF343221442BA100849801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AF343321442BA100849801 /* Build configuration list for PBXNativeTarget "SeekAndPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AF343421442BA100849801 /* Debug */,
+				03AF343521442BA100849801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AF343621442BA100849801 /* Build configuration list for PBXNativeTarget "SeekAndPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AF343721442BA100849801 /* Debug */,
+				03AF343821442BA100849801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03AF340F21442BA000849801 /* SeekAndPlay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03AF341021442BA000849801 /* SeekAndPlay.xcdatamodel */,
+			);
+			currentVersion = 03AF341021442BA000849801 /* SeekAndPlay.xcdatamodel */;
+			path = SeekAndPlay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03AF33FD21442BA000849801 /* Project object */;
+}
