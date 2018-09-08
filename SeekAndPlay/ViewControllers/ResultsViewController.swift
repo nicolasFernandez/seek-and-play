@@ -6,4 +6,15 @@
 //  Copyright © 2018 Nicolás Fernández. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ResultsViewController: UIViewController {
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+	}
+	
+	override func didReceiveMemoryWarning() {
+		super.didReceiveMemoryWarning()
+	}
+}
