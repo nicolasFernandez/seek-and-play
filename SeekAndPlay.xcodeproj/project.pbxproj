@@ -15,6 +15,9 @@
 		03AF341621442BA100849801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AF341421442BA100849801 /* LaunchScreen.storyboard */; };
 		03AF342121442BA100849801 /* SeekAndPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF342021442BA100849801 /* SeekAndPlayTests.swift */; };
 		03AF342C21442BA100849801 /* SeekAndPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF342B21442BA100849801 /* SeekAndPlayUITests.swift */; };
+		03FCE5A5214437E3001DBF52 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCE5A4214437E3001DBF52 /* SearchViewController.swift */; };
+		03FCE5A7214437EE001DBF52 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCE5A6214437EE001DBF52 /* ResultsViewController.swift */; };
+		03FCE5A9214437FE001DBF52 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FCE5A8214437FE001DBF52 /* AlbumViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		03AF342721442BA100849801 /* SeekAndPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekAndPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AF342B21442BA100849801 /* SeekAndPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekAndPlayUITests.swift; sourceTree = "<group>"; };
 		03AF342D21442BA100849801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FCE5A4214437E3001DBF52 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		03FCE5A6214437EE001DBF52 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		03FCE5A8214437FE001DBF52 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 				03AF341421442BA100849801 /* LaunchScreen.storyboard */,
 				03AF341721442BA100849801 /* Info.plist */,
 				03AF340F21442BA000849801 /* SeekAndPlay.xcdatamodeld */,
+				03FCE5AA21443810001DBF52 /* ViewControllers */,
 			);
 			path = SeekAndPlay;
 			sourceTree = "<group>";
@@ -126,6 +133,16 @@
 				03AF342D21442BA100849801 /* Info.plist */,
 			);
 			path = SeekAndPlayUITests;
+			sourceTree = "<group>";
+		};
+		03FCE5AA21443810001DBF52 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				03FCE5A4214437E3001DBF52 /* SearchViewController.swift */,
+				03FCE5A6214437EE001DBF52 /* ResultsViewController.swift */,
+				03FCE5A8214437FE001DBF52 /* AlbumViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FCE5A9214437FE001DBF52 /* AlbumViewController.swift in Sources */,
 				03AF341121442BA000849801 /* SeekAndPlay.xcdatamodeld in Sources */,
 				03AF340B21442BA000849801 /* ViewController.swift in Sources */,
+				03FCE5A5214437E3001DBF52 /* SearchViewController.swift in Sources */,
+				03FCE5A7214437EE001DBF52 /* ResultsViewController.swift in Sources */,
 				03AF340921442BA000849801 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
