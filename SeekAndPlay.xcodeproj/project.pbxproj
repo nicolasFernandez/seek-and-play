@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		03AF340921442BA000849801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF340821442BA000849801 /* AppDelegate.swift */; };
-		03AF340B21442BA000849801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF340A21442BA000849801 /* ViewController.swift */; };
 		03AF340E21442BA000849801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AF340C21442BA000849801 /* Main.storyboard */; };
 		03AF341121442BA000849801 /* SeekAndPlay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03AF340F21442BA000849801 /* SeekAndPlay.xcdatamodeld */; };
 		03AF341321442BA100849801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03AF341221442BA100849801 /* Assets.xcassets */; };
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		03AF340521442BA000849801 /* SeekAndPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeekAndPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AF340821442BA000849801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03AF340A21442BA000849801 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03AF340D21442BA000849801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03AF341021442BA000849801 /* SeekAndPlay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeekAndPlay.xcdatamodel; sourceTree = "<group>"; };
 		03AF341221442BA100849801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				03AF340821442BA000849801 /* AppDelegate.swift */,
-				03AF340A21442BA000849801 /* ViewController.swift */,
 				03AF340C21442BA000849801 /* Main.storyboard */,
 				03AF341221442BA100849801 /* Assets.xcassets */,
 				03AF341421442BA100849801 /* LaunchScreen.storyboard */,
@@ -278,7 +275,6 @@
 			files = (
 				03FCE5A9214437FE001DBF52 /* AlbumViewController.swift in Sources */,
 				03AF341121442BA000849801 /* SeekAndPlay.xcdatamodeld in Sources */,
-				03AF340B21442BA000849801 /* ViewController.swift in Sources */,
 				03FCE5A5214437E3001DBF52 /* SearchViewController.swift in Sources */,
 				03FCE5A7214437EE001DBF52 /* ResultsViewController.swift in Sources */,
 				03AF340921442BA000849801 /* AppDelegate.swift in Sources */,
