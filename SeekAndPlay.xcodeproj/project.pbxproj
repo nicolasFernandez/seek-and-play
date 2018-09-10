@@ -80,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03624422214685470046C882 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03AF340821442BA000849801 /* AppDelegate.swift */,
+				03AF341221442BA100849801 /* Assets.xcassets */,
+				03AF341421442BA100849801 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		03AF33FC21442BA000849801 = {
 			isa = PBXGroup;
 			children = (
@@ -103,10 +113,8 @@
 		03AF340721442BA000849801 /* SeekAndPlay */ = {
 			isa = PBXGroup;
 			children = (
-				03AF340821442BA000849801 /* AppDelegate.swift */,
+				03624422214685470046C882 /* Supporting Files */,
 				03AF340C21442BA000849801 /* Main.storyboard */,
-				03AF341221442BA100849801 /* Assets.xcassets */,
-				03AF341421442BA100849801 /* LaunchScreen.storyboard */,
 				03AF341721442BA100849801 /* Info.plist */,
 				03AF340F21442BA000849801 /* SeekAndPlay.xcdatamodeld */,
 				03FCE5AA21443810001DBF52 /* ViewControllers */,
