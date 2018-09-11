@@ -6,6 +6,7 @@ target 'SeekAndPlay' do
   use_frameworks!
 
   # Pods for SeekAndPlay
+  pod 'Alamofire', '~> 4.7'
 
   target 'SeekAndPlayTests' do
     inherit! :search_paths
