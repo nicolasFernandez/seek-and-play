@@ -14,6 +14,8 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
 	@IBOutlet weak var recentSearchTableView: UITableView!
 	@IBOutlet weak var searchBar: UISearchBar!
 	
+	let search = Search()
+	
 	var recentSearches = [History]() {
 		didSet {
 			// debug print statement
@@ -57,4 +59,16 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
 		return ""
 	}
 	
+	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		if let term = recentSearches[indexPath.row].term {
+			search.searchTerm(term)
+		}
+	}
+	
+	//MARK: UISearchBarDelegate
+	func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+		if let term = searchBar.text {
+			search.searchTerm(term)
+		}
+	}
 }
