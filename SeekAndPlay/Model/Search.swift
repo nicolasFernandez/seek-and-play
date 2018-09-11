@@ -18,6 +18,8 @@ class Search {
 		//Note: URL encoding replaces spaces with the plus (+) character and all characters except the following are encoded: letters, numbers, periods (.), dashes (-), underscores (_), and asterisks (*)
 		if let encoded = term.addingPercentEncoding(withAllowedCharacters: .alphanumerics) {
 			
+			//TODO: save term in database for recentSearches
+			
 			//TODO: check how to look for a collection entity=music&attribute=albumTerm // CollectionName
 			Alamofire.request("https://itunes.apple.com/search?term=\(encoded)&media=music&limit=\(limit)").responseJSON { response in
 				print("Request: \(String(describing: response.request))")   // original url request
