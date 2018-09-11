@@ -8,7 +8,12 @@
 
 import UIKit
 
-class SearchViewController: UIViewController {
+class SearchViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+	
+	@IBOutlet weak var recentSearchTableView: UITableView!
+	@IBOutlet weak var emptyTableView: UIView!
+	
+	var recentSearches = [History]()
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -17,4 +22,19 @@ class SearchViewController: UIViewController {
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 	}
+	
+	//MARK: UITableViewDataSource
+	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+		return recentSearches.count
+	}
+	
+	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+		let tableViewCell = UITableViewCell(style: .default, reuseIdentifier: "HistoryCell")
+		
+		let recentSearch = recentSearches[indexPath.row]
+		tableViewCell.textLabel?.text = recentSearch.term
+		
+		return tableViewCell
+	}
+	
 }
