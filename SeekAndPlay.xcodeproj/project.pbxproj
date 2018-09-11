@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032A905B2147C425000503FA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032A905A2147C425000503FA /* History.swift */; };
+		032A905E2147C45E000503FA /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032A905D2147C45E000503FA /* Search.swift */; };
 		03AF340921442BA000849801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AF340821442BA000849801 /* AppDelegate.swift */; };
 		03AF340E21442BA000849801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03AF340C21442BA000849801 /* Main.storyboard */; };
 		03AF341121442BA000849801 /* SeekAndPlay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03AF340F21442BA000849801 /* SeekAndPlay.xcdatamodeld */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032A905A2147C425000503FA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		032A905D2147C45E000503FA /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		03AF340521442BA000849801 /* SeekAndPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeekAndPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03AF340821442BA000849801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03AF340D21442BA000849801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032A905C2147C445000503FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				032A905A2147C425000503FA /* History.swift */,
+				032A905D2147C45E000503FA /* Search.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		03624422214685470046C882 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +131,7 @@
 				03AF341721442BA100849801 /* Info.plist */,
 				03AF340F21442BA000849801 /* SeekAndPlay.xcdatamodeld */,
 				03FCE5AA21443810001DBF52 /* ViewControllers */,
+				032A905C2147C445000503FA /* Model */,
 			);
 			path = SeekAndPlay;
 			sourceTree = "<group>";
@@ -281,11 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				032A905B2147C425000503FA /* History.swift in Sources */,
 				03FCE5A9214437FE001DBF52 /* AlbumViewController.swift in Sources */,
 				03AF341121442BA000849801 /* SeekAndPlay.xcdatamodeld in Sources */,
 				03FCE5A5214437E3001DBF52 /* SearchViewController.swift in Sources */,
 				03FCE5A7214437EE001DBF52 /* ResultsViewController.swift in Sources */,
 				03AF340921442BA000849801 /* AppDelegate.swift in Sources */,
+				032A905E2147C45E000503FA /* Search.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
