@@ -10,7 +10,17 @@ import Foundation
 
 struct History {
 	
-	static var identifier: Int
-	var term: String
+	var identifier: Int
+	var term: String? = nil
 	
+	static var identifierFactory = 0
+	
+	static func getUniqueIdentifier() -> Int {
+		identifierFactory += 1
+		return identifierFactory
+	}
+	
+	init() {
+		self.identifier = History.getUniqueIdentifier()
+	}
 }

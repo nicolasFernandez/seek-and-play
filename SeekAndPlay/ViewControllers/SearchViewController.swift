@@ -8,15 +8,27 @@
 
 import UIKit
 
-class SearchViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
 	
+	@IBOutlet weak var emptyView: UIView!
 	@IBOutlet weak var recentSearchTableView: UITableView!
-	@IBOutlet weak var emptyTableView: UIView!
+	@IBOutlet weak var searchBar: UISearchBar!
 	
-	var recentSearches = [History]()
+	var recentSearches = [History]() {
+		didSet {
+			// debug print statement
+			recentSearchTableView.isHidden = recentSearches.count < 1
+		}
+	}
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
+		//Tabla de busquedas recientes inicia escondida para mostrar emptyView
+		recentSearchTableView.isHidden = true
+		
+		//TODO: fill recentSearches from database
+		//TODO: hide recentSearchTableView based on recentSearches.count
 	}
 	
 	override func didReceiveMemoryWarning() {
@@ -35,6 +47,14 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
 		tableViewCell.textLabel?.text = recentSearch.term
 		
 		return tableViewCell
+	}
+	
+	func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+		if section == 0 {
+			return "Búsquedas recientes"
+		}
+		
+		return ""
 	}
 	
 }
