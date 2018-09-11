@@ -10,6 +10,10 @@ import UIKit
 
 class AlbumViewController: UIViewController {
 	
+	@IBOutlet weak var artImageView: UIImageView!
+	@IBOutlet weak var albumNameLabel: UILabel!
+	@IBOutlet weak var albumArtistLabel: UILabel!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 	}
